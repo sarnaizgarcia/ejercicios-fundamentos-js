@@ -33,3 +33,13 @@ let gente = [{
         edad: 10
     },
 ]
+
+var arr = [];
+
+for (var persona of gente) {
+    if (persona.nombre[0] === 'J') {
+        arr.push(persona.nombre);
+    }
+}
+
+console.log(arr);
