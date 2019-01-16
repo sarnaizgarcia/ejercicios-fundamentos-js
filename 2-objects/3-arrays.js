@@ -5,8 +5,22 @@
 
 
 // Aquí tu código
+var arr = [{
+    name: 'pepito',
+    age: 25,
+},
 
+{
+    name: 'pepito',
+    age: 20,
+},
 
+{
+    name: 'Jacinto',
+    age: 18,
+}
+
+];
 // Hasta aquí
 
 // TEST 1
