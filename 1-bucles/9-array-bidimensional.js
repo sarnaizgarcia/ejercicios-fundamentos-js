@@ -12,3 +12,13 @@ let matriz = [
     [],
     []
 ]
+// bucle for x 3
+ // Pinto una fila(i)
+for (var j = 0; j < 3; j++) {
+    for (var i = 0; i < 3; i++) {
+        matriz[j].push(''+ j + i);
+    }
+}
+
+
+console.log(matriz);
