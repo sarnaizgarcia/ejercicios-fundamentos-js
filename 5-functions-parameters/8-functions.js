@@ -8,6 +8,14 @@
 
 // Aquí tu código
 
+function convierteEurosEnPesetas(num) {
+    if (typeof num === "number") {
+        return num * 168;
+    } else {
+        throw 'convierteEurosEnPesetas debe recibir un number';
+    }
+}
+
 // Hasta aquí
 
 
