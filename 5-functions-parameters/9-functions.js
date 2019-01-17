@@ -10,6 +10,14 @@
 
 // Aquí tu código
 
+function muestraPorConsolaEurosEnPesetas(num) {
+    if (typeof num === 'number') {
+        return undefined;
+    } else {
+        throw 'muestraPorConsolaEurosEnPesetas debe recibir un number';
+    }
+
+    }
 
 // Hasta aquí
 
