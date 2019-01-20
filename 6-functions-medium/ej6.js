@@ -1,6 +1,6 @@
 // crea la función  transformaArrayEnOtraConSusLongitudes
 // debe recibir un array 
-// devolver y otro array con las longitudes de los strings recibidos en el array
+// devolver y otro array con las longitudes de logit logs strings recibidos en el array
 
 // Si la función no recibe un dato tipo object / array  
 // debe devolver el string 'Debo ser ejecutada con un array'
@@ -13,11 +13,17 @@
 let transformaArrayEnOtraConSusLongitudes = (arrayDeStrings) => {
     let arrayDeLongitudes = [];
     // Aquí tu código.  Desde aquí:
+    if (typeof arrayDeStrings === 'object' && arrayDeStrings.length >= 0) {
+        for (let i of arrayDeStrings) {
+            arrayDeLongitudes.push(i.length);
+        }
+    } else {
+        return 'Debo ser ejecutada con un array'
+    }
 
     // Hasta aquí.
     return arrayDeLongitudes
-}
-
+    }
 
 let test = require('../test.js');
 test(transformaArrayEnOtraConSusLongitudes, [
