@@ -21,7 +21,7 @@ let sumaDesdeHasta = (desde, hasta) => {
             sumatorio += i;
             console.log(i);
         }
-    }else {
+    } else {
         for (let i = desde; i <= hasta ; i++) {
             sumatorio += i;
         }

@@ -15,7 +15,7 @@ let sumaDesdeHasta = (desde, hasta) => {
 
     if (typeof desde !== "number" && typeof hasta !== "number"){
         throw new Error('Debo recibir números');
-    } else{
+    } else {
         for (let i = desde; i <= hasta; i++ ) {
             sumatorio += i;
         }
